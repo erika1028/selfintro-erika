@@ -30,8 +30,7 @@
   </head>
 
 <body>
-    
-      <Header  id="home" class="jumbotron jumbotron-extend mb-0">
+ <Header  id="home" class="jumbotron jumbotron-extend mb-0">
         <div class="container text-center">
         <h1>Erika Tokumoto</h1>
         <div id="greeting">
@@ -39,8 +38,8 @@
         Welcome to my site <b> </p>
         </div>
         </div>
-   　　 </header>
-   　　
+  </header>
+<div class= "jumbotron jumbotron-nav mb-0">　　
  <section class="cr-container">			
 
 	<input id="select-img-1" name="radio-set-1" type="radio" class="cr-selector-img-1" checked/>
@@ -84,7 +83,6 @@
 		</div>
 	</div>
 
-	<!-- titles -->
 	<div class="cr-titles">
 		<h3>
 			<span>Menu</span>
@@ -99,23 +97,20 @@
 			<span>Let's enjoy together</span>
 		</h3>
 		<h3>
-			<span>Serenity</span>
-			<span>When silence touches nature</span>
+			<span>contact</span>
+			<span>Please contact me</span>
 		</h3>
 	</div>
 
 </section>   
-
-
-
-  
+</div>
 <div  class="jumbotron jumbotron-basic mb-0">
     <div class="container text-center">
         <div class="row">
             <h2 class="col-md-12">Who is Erika Tokumoto</h2>
             <div class="col-md-6">
                <h3>Basic Information</h3>
-                 <ul class="selfintro text-left">
+                 <ul class="selfintro text-left list">
                        <li>Name：Erika Tokumoto</li>
                     　 <li>Age:22</li>
                     　 <li>Birthday：28th October</li>
@@ -125,12 +120,7 @@
             </div>
             <div class="col-md-6">
                 <h3>History</h3>
-               <table class="list">
-                          <thead>
-                              <th>Year</th>
-                              <th> </th>
-                          </thead class="text-left">  
-                          <tbody>
+               <table class="text-left" >
                               <tr>
                               <th>1995</th>
                               <td>born in Yamaguchi prefecture <br> December went to Singapore</td>
@@ -151,54 +141,67 @@
                           　　<th>2005</th>
                           　　<td>Germany, japanese school in Düsseldorf</td>
                           　　</tr>
-                          </tbody>
+                          　　<tr>
+                          　　　<th>2007</th>
+                          　　<td>Tokyo, Shimura 2nd elementary school</td>
+                          　　</tr>
+                          　　<tr>
+                          　　　<th>2008</th>
+                          　　<td>Rikkyo zyogakuin</td>
+                          　　</tr>
+                          　　<tr>
+                          　　　<th>2014</th>
+                          　　<td>Keio University</td>
+                          　　</tr>
+                          　　<tr>
+                          　　　<th>2018</th>
+                          　　<td>Rakuten</td>
+                          　　</tr>
                         </table>
             </div>
         </div>
    </div> 
 </div>
-
-
- <div  id="home" class="jumbotron jumbotron-hobby mb-0">
+<div class="jumbotron jumbotron-hobby mb-0">
     <div class="container text-center">
         <div class="row">
             <h2 class="col-md-12">Let's Enjoy Together!</h2>
             <div class="col-md-4">
                <h3>Movie</h3>
                <section >
-                        <ul class=list>
-                            <li>映画館で映画鑑賞 </li>
-                            <li>おうちでひきこもり鑑賞</li>
-                            <li>移動時間にお手軽鑑賞 </li>
-                        </ul>
-                        <p>
-                            filmarksしている人いたら検索してください！
+                        <div class="list text-center">
+                            <p>TheAtre</p>
+                            <p>HOme</p>
+                            <p>SmarTphONe</p>
+                        <p class="mt-5">
+                            If you use Filmarks, contact me!!!
                         </p>
                     </section>
             </div>
             <div class="col-md-4">
                 <section >
                <h3>Art</h3>
-                     <p class="list">    上野や森ビルの美術展！！<br>
-                     　特に西洋美術が大好きです！
+                     <p class="list"> 
+                      Museum at Ueno Or Mori building<br>
+                     Especially, western art
                         </p>
                 </section>
             </div>
     <div class="col-md-4">
                 <h3 >Dance</h3>
-                        <ul class="list">
-                            <li>Jazz</li>
-                            <li>Vogue</li>
-                        </ul>
-                        <p>
-                            balletに近いjazzを大学のサークルでしてました！<br> vogueは元々ゲイの人たちのダンスで、最近では乃木坂４６のサイレンサーでも起用されてました。
-                            <br> 特にサイレンサーの振付師だったseishiroさんが大好きなのでもし好きな人いたらお話したいです！！
-                            <br>
+                        <div class="list">
+                            <p>Jazz</p>
+                            <p>Vogue</p>
+                    
+                        <p class="mt-5">
+                           I joined to dance club in University
                         </p>
+                </div>
             </div>
         </div>
  </div> 
 </div>
+
  
         <footer id="mail">
             <small>&copy; erika.tokumoto@rakuten.com </small>
@@ -208,9 +211,6 @@
 
 
  
-
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
