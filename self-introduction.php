@@ -31,15 +31,18 @@
 
 <body>
  <Header  id="home" class="jumbotron jumbotron-extend mb-0">
-        <div class="container text-center">
+    <div class="container text-center">
         <h1>Erika Tokumoto</h1>
         <div id="greeting">
         <p><b><?php print greeting($now_hour); ?><br>
         Welcome to my site <b> </p>
         </div>
+        <div class="scroll">
+        <a href="#menu"><span></span></a>
         </div>
+    </div>
   </header>
-<div class= "jumbotron jumbotron-nav mb-0">　　
+<div class= "jumbotron jumbotron-nav mb-0" id="menu">　　
  <section class="cr-container">			
 
 	<input id="select-img-1" name="radio-set-1" type="radio" class="cr-selector-img-1" checked/>
@@ -168,7 +171,6 @@
             <h2 class="col-md-12">Let's Enjoy Together!</h2>
             <div class="col-md-4">
                <h3>Movie</h3>
-               <section >
                         <div class="list text-center">
                             <p>TheAtre</p>
                             <p>HOme</p>
@@ -176,7 +178,7 @@
                         <p class="mt-5">
                             If you use Filmarks, contact me!!!
                         </p>
-                    </section>
+                  </div>
             </div>
             <div class="col-md-4">
                 <section >
