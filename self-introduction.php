@@ -96,7 +96,7 @@
 			<span>Who is Erika Tokumoto</span>
 		</h3>
 		<h3>
-			<span>Hobbie</span>
+			<span>Hobbies</span>
 			<span>Let's enjoy together</span>
 		</h3>
 		<h3>
